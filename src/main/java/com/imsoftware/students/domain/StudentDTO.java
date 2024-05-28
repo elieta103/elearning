@@ -35,4 +35,8 @@ public class StudentDTO {
 	public Boolean getCurrentPopularSubject() {
 		return currentPopularSubject;
 	}
+
+	public void setCurrentPopularSubject(Boolean currentPopularSubject) {
+		this.currentPopularSubject = currentPopularSubject;
+	}
 }
